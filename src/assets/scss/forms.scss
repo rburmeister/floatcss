@@ -1,0 +1,230 @@
+@import "colors";
+
+form  {
+  width: 100%;
+}
+
+.form-input {
+  position:relative;
+}
+
+.form-input [class*=icono-] {
+  position:absolute;
+  transform:scale(0.7) translateY(-50%);
+  top:50%;
+  margin:0;
+  left:1rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="file"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea,
+textarea[type=text]  {
+  width: 100%;
+  box-sizing: border-box;
+  transition: all .2s ease;
+  border-width: 1px;
+  border-color: $gray-light;
+  border-style: solid;
+  border-radius: 2px;
+  font-size:1rem;
+
+  &:focus  {
+    border-color: $gray-dark;
+    transition: all .2s ease;
+  }
+}
+
+input, textarea  {
+  padding: .9rem 1rem .9rem 1rem;
+}
+
+.input-icon input {
+  padding: .9rem 1rem .9rem 2rem;
+}
+
+select  {
+  background: #fff;
+  padding: .9rem .5rem .9rem .5rem;
+  margin: 1.2rem 0;
+}
+
+textarea  {
+  resize: vertical;
+  min-height: 12rem;
+  margin: 0;
+}
+
+.input-field  {
+  span:before  {
+    cursor: pointer;
+    position: relative;
+    top: 3rem;
+    left: .6rem;
+    color: $gray;
+  }
+}
+
+.input-select  {
+  span:before  {
+    right: .6rem;
+    left: auto;
+    float:right;
+    top:3.3rem;
+  }
+}
+
+.text-area-field  {
+  span:before  {
+    top: 1.8rem;
+  }
+}
+
+
+label  {
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    display: none;
+
+    + span:before  {
+      content: '';
+      font-family: 'fontawesome';
+      border: 1px solid $black;
+      padding: .4rem .4rem;
+      border-radius: 2px;
+      transition: .2s;
+      color: rgba(255, 255, 255, 0);
+      font-size: 16px;
+    }
+  }
+
+  input[type="checkbox"]:checked + span:before  {
+    content: '';
+    font-family: 'fontawesome';
+    border: 1px solid $black;
+    padding: .4rem .4rem;
+    border-radius: 2px;
+    transition: .2s;
+    color: $black;
+    font-size: 16px;
+  }
+
+  input[type="radio"] {
+    display: none;
+
+    + span:before  {
+      content: '';
+      font-family: 'fontawesome';
+      border: 1px solid $black;
+      padding: .3rem .4rem;
+      border-radius: 100%;
+      transition: .2s;
+      color: rgba(255, 255, 255, 0);
+      font-size: 14px;
+    }
+  }
+
+  input[type="radio"]:checked + span:before  {
+    content: '';
+    font-family: 'fontawesome';
+    border: 1px solid $black;
+    padding: .3rem .4rem;
+    border-radius: 100%;
+    transition: .2s;
+    color: $black;
+    font-size: 14px;
+  }
+}
+
+.orange-input  {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="search"],
+  input[type="number"],
+  input[type="file"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea,
+  textarea[type="text"]  {
+    border-color: $ghc-orange;
+
+    &:focus  {
+      border-color: $ghc-orange-hover;
+    }
+  }
+
+  span:before  {
+    color: $ghc-orange;
+  }
+}
+
+.blue-input  {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="search"],
+  input[type="number"],
+  input[type="file"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea,
+  textarea[type="text"]  {
+    border-color: $ghc-blue;
+
+    &:focus  {
+      border-color: $ghc-blue-hover;
+    }
+  }
+
+  span:before  {
+    color: $ghc-blue;
+  }
+}
+
+
+.gray-input  {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="search"],
+  input[type="number"],
+  input[type="file"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea,
+  textarea[type="text"]  {
+    border-color: $gray-light;
+
+    &:focus  {
+      border-color: $gray-dark;
+    }
+  }
+
+  span:before  {
+    color: $gray-light;
+  }
+}
+
+.black-checkbox  {
+  + span:before  {
+    border-color: $black !important;
+    color: rgba(255, 255, 255, 0) !important;
+  }
+}
+
+.black-checkbox:checked + span:before  {
+  color: $black !important;
+}
+

@@ -1,0 +1,36 @@
+/* Padding styles */
+
+@for $i from 0 through 4 {
+    $p: (0.75*$i) * 1rem;
+
+    .p-#{$i} {
+      padding: $p;
+    }
+  
+    .p-t-#{$i} {
+      padding-top: $p;
+    }
+  
+    .p-r-#{$i} {
+      padding-right: $p;
+    }
+  
+    .p-b-#{$i} {
+      padding-bottom: $p;
+    }
+  
+    .p-l-#{$i} {
+      padding-left: $p;
+    }
+  
+    .p-x-#{$i} {
+      padding-left: $p;
+      padding-right: $p;
+    }
+  
+    .p-y-#{$i} {
+      padding-top: $p;
+      padding-bottom: $p;
+    }
+  
+  }

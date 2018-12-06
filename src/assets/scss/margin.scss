@@ -1,0 +1,32 @@
+/* Margin styles */
+
+@for $i from 0 through 4 {
+    $m: (0.75*$i) * 1rem;
+  
+    .m-t-#{$i} {
+      margin-top: $m;
+    }
+  
+    .m-r-#{$i} {
+      margin-right: $m;
+    }
+  
+    .m-b-#{$i} {
+      margin-bottom: $m;
+    }
+  
+    .m-l-#{$i} {
+      margin-left: $m;
+    }
+  
+    .m-x-#{$i} {
+      margin-left: $m;
+      margin-right: $m;
+    }
+  
+    .m-y-#{$i} {
+      margin-top: $m;
+      margin-bottom: $m;
+    }
+  
+  }

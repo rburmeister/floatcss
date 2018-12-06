@@ -1,0 +1,46 @@
+@import 'main';
+@import 'colors';
+@import 'variables';
+
+/* Custom styling for app */
+
+#nav {
+  height:100vh;
+  background:#fff;
+  width:200px;
+}
+
+nav ul li a {
+  color: $gray;
+  border-color: $gray-lighter;
+}
+
+nav ul li a:hover {
+  background: $ghc-blue-hover;
+  color:#fff;
+}
+
+nav ul li a [class*=icono-] {
+  float:right;
+  margin:0;
+  transition: all .3s ease;
+}
+
+nav ul li a:hover [class*=icono-] {
+  transform:translateX(.5rem);
+}
+
+.container-custom {
+  width:calc(100% - 200px);
+}
+
+
+@media only screen and (max-width: $screen-md) {
+  #nav {
+    transform:translateX(-200px);
+  }
+
+  .container-custom {
+    width:100%;
+  }
+}

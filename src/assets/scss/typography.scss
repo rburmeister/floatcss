@@ -1,0 +1,114 @@
+$txt-bold: 500;
+$line-height-1: 1;
+$line-height-2: 1.25;
+$line-height-3: 1.5;
+$line-height-4: 2;
+
+$h1: 2rem;
+$h2: 1.5rem;
+$h3: 1.25rem;
+$h4: 1rem;
+$h5: .85rem;
+$h6: .75rem;
+
+/* Typography styles */
+
+.txt-decoration-none {
+    text-decoration:none;
+}
+
+.txt-bold {
+    font-weight:$txt-bold;
+}
+
+.txt-regular {
+    font-weight:regular;
+}
+
+.txt-italic {
+    font-style:italic;
+}
+
+.txt-caps {
+    text-transform:capitalize;
+}
+
+.txt-left {
+    text-align:left;
+}
+
+.txt-right {
+    text-align:right;
+}
+
+.txt-center {
+    text-align:center;
+}
+
+.txt-justify {
+    text-align:justify;
+}
+
+.txt-no-wrap {
+    white-space: nowrap;
+}
+
+.txt-break-word {
+    word-wrap: break-word;
+}
+
+.txt-full-width {
+    display:block;
+    float:left;
+    width:100%;
+}
+
+.line-height-1 {
+    line-height:$line-height-1;
+}
+
+.line-height-2 {
+    line-height:$line-height-2;
+}
+
+.line-height-3 {
+    line-height:$line-height-3;
+}
+
+.line-height-4 {
+    line-height:$line-height-4;
+}
+
+.txt-truncate {
+    max-width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+.h1 {
+    font-size: $h1;
+}
+
+.h2 {
+    font-size: $h2;
+}
+
+.h3 {
+    font-size: $h3;
+}
+
+.h4 {
+    font-size: $h4;
+}
+
+.h5 {
+    font-size: $h5;
+}
+
+.h6 {
+    font-size: $h6;
+}
+
+
+

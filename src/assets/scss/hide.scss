@@ -1,0 +1,41 @@
+@import 'variables';
+
+/* Hide styles */
+
+.hide {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+@media only screen and (max-width: $screen-sm) {
+    .xs-hide {
+      display:none !important;
+    }
+  }
+  
+  @media only screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    .sm-hide {
+      display:none !important;
+    }
+  }
+  
+  @media only screen and (min-width: $screen-md) and (max-width: $screen-lg) {
+    .md-hide {
+      display:none !important;
+    }
+  }
+  
+  @media screen and (min-width: $screen-lg) {
+    .lg-hide {
+      display:none !important;
+    }
+  }
+  
+.display-none {
+    display: none !important;
+}
+

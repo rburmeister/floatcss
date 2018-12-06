@@ -1,0 +1,112 @@
+@import "colors";
+
+.btn  {
+  padding: 1rem 1.5rem;
+  color: $white;
+  cursor: pointer;
+  border: none;
+  outline:none;
+  text-align:center;
+  font-size:1rem;
+  transition:all 0.4s ease;
+  border-radius:5px;
+}
+
+.btn [class*=icono-]  {
+  color:$white;
+  margin:0 0 0 1rem;
+  transition:all 0.4s ease;
+}
+
+.btn-primary {
+  border-radius:5px;
+}
+
+.btn-rounded  {
+  border-radius: 30px;
+}
+
+.btn-outlined  {
+  border-width: 2px;
+  border-style: solid;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.btn-orange  {
+  background: $ghc-orange;
+  color: $white;
+
+  &:hover {
+    background-color: $ghc-orange-hover;
+  }
+}
+
+.btn-blue  {
+  background: $ghc-blue;
+  color: $white;
+
+  &:hover {
+    background-color: $ghc-blue-hover;
+  }
+}
+
+.btn.orange-btn [class*=icono-] {
+  color: $ghc-orange;
+}
+
+.orange-btn {
+  border-color: $ghc-orange;
+  color: $ghc-orange;
+
+  &:hover {
+    background: $ghc-orange;
+    color: $white;
+
+    [class*=icono-] {
+      color: $white;
+    }
+  }
+}
+
+.btn.blue-btn [class*=icono-] {
+  color: $ghc-blue;
+}
+
+.blue-btn {
+  border-color: $ghc-blue;
+  color: $ghc-blue;
+
+  &:hover {
+    background: $ghc-blue;
+    color: $white;
+
+    [class*=icono-] {
+      color: $white;
+    }
+  }
+}
+
+.btn-shadow {
+  box-shadow:0 14px 28px rgba(0,0,0,0.06), 0 10px 10px rgba(0,0,0,0.08); 
+
+  &:hover {
+    box-shadow:0 14px 28px rgba(0,0,0,0.03), 0 10px 10px rgba(0,0,0,0.03); 
+  }
+}
+
+button:disabled  {
+  box-shadow: unset;
+  opacity: .8;
+  background: $disabled;
+  color: #fff;
+  border: unset;
+  cursor: not-allowed;
+
+  &:hover  {
+    box-shadow: unset;
+    background: $disabled;
+  }
+}

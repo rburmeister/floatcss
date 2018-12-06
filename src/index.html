@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GHC CSS Library</title>
+</head>
+<body>
+  <div id="main">
+    <!-- Navigation -->
+    <div id="nav" class="fixed top-0 left-0 z-4 box-shadow-x">
+      <div id="logo" class="p-1 m-t-2">
+        <a href="" title="" class="block ghc-blue txt-center m-b-1 h1">
+          GHCss
+        </a>
+        <span  class="block ghc-blue txt-center m-b-1 h5 txt-italic">The uncomplicated CSS framework</span>
+      </div>
+      <nav>
+        <ul class="list-reset m-t-1">
+          <li><a class="block p-y-1 p-x-2 border-bottom" href="" title="">Getting Started</a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Containers <i class="icono-caretRight"></i></a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Buttons <i class="icono-caretRight"></i></a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Forms <i class="icono-caretRight"></i></a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Cards <i class="icono-caretRight"></i></a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Media <i class="icono-caretRight"></i></a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Grid <i class="icono-caretRight"></i></a></li>
+          <li><a class="block p-y-1 p-x-2 border-bottom txt-bold" href="" title="">Utilities <i class="icono-caretRight"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Navigation -->
+
+    <!-- Content -->
+    <div id="content" class="container-custom right p-t-3">
+      <!-- Containers -->
+      <div class="container p-b-4">
+        <span class="h1 block m-b-4">Containers</span>
+        <!-- Full Container -->
+        <span class="h2 block">full-container</span>
+        <div class="full-container bg-custom p-y-2 m-y-2">
+          <span class="h2 block txt-center txt-bold">Test</span>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="full-container">
+          // add elements
+        </div></script>
+        </code></pre>
+        </div>
+        <!-- Container -->
+        <span class="h2 block">container</span>
+        <div class="container bg-custom p-y-2 m-y-2">
+          <span class="h2 block txt-center txt-bold">max-width: 1280px</span>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="container">
+            // add elements
+        </div></script>
+        </code></pre>
+        </div>
+        <!-- Full Container -->
+        <span class="h2 block">small-container</span>
+        <div class="small-container bg-custom p-y-2 m-y-2">
+          <span class="h2 block txt-center txt-bold">max-width: 960px</span>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="small-container">
+            // add elements
+        </div></script>
+        </code></pre>
+        </div>
+      </div>
+      <!-- End of Containers -->
+
+      <!-- Buttons -->
+      <div class="container m-y-4 p-y-4">
+        <span class="h1 block m-b-4">Buttons</span>
+        <!-- Primary buttons -->
+        <span class="h2 block m-b-1">Primary</span>
+        <button class="btn btn-primary btn-orange btn-shadow m-r-2">btn-primary</button>
+        <button class="btn btn-primary btn-blue btn-shadow m-r-2">btn-primary</button>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <button class="btn btn-primary btn-shadow">btn-primary</button>
+
+        <button class="btn btn-blue btn-shadow">btn-primary</button></script>
+        </code></pre>
+        </div>
+         <!-- Icon Buttons -->
+         <span class="h2 block m-b-1 m-t-3">Icons</span>
+         <button class="btn btn-outlined btn-shadow orange-btn m-r-2">btn-icons <i class="icono-caretRight"></i></button>
+         <button class="btn btn-outlined btn-shadow blue-btn m-r-2">btn-icons <i class="icono-caretRight"></i></button>
+         <!-- code snippet -->
+         <div class="m-y-2">
+         <pre><code class="language-markup"><script type="prism-html-markup">
+         <button class="btn btn-outlined btn-shadow orange-btn">btn-outlined</button>
+         
+         <button class="btn btn-outlined btn-shadow blue-btn">btn-outlined</button></script>
+         </code></pre>
+         </div>
+        <!-- Outline Buttons -->
+        <span class="h2 block m-b-1 m-t-3">Outline</span>
+        <button class="btn btn-outlined btn-shadow orange-btn m-r-2">btn-outlined</button>
+        <button class="btn btn-outlined btn-shadow blue-btn m-r-2">btn-outlined</button>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <button class="btn btn-outlined btn-shadow orange-btn">btn-outlined</button>
+        
+        <button class="btn btn-outlined btn-shadow blue-btn">btn-outlined</button></script>
+        </code></pre>
+        </div>
+        <!-- Rounded Buttons -->
+        <span class="h2 block m-b-1 m-t-3">Rounded</span>
+        <button class="btn btn-outlined btn-shadow btn-rounded orange-btn m-r-2">btn-rounded</button>
+        <button class="btn btn-outlined btn-shadow btn-rounded blue-btn m-r-2">btn-rounded</button>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <button class="btn btn-outlined btn-shadow btn-rounded orange-btn">btn-rounded</button>
+        
+        <button class="btn btn-outlined btn-shadow btn-rounded blue-btn">btn-rounded</button></script>
+        </code></pre>
+        </div>
+        <!-- Rounded Buttons -->
+        <span class="h2 block m-b-1 m-t-3">Disabled</span>
+        <button class="btn btn-primary btn-shadow m-r-2" disabled>btn-primary</button>
+        <button class="btn btn-outlined btn-shadow orange-btn m-r-2" disabled>btn-outlined</button>
+        <button class="btn btn-outlined btn-shadow btn-rounded blue-btn m-r-2" disabled>btn-disabled</button>
+        <!-- code snippet -->
+        <div class="m-y-2">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <button class="btn btn-primary btn-shadow" disabled>btn-primary</button>
+
+        <button class="btn btn-outlined btn-shadow orange-btn" disabled>btn-outlined</button>
+        
+        <button class="btn btn-outlined btn-shadow btn-rounded blue-btn" disabled>btn-rounded</button></script>
+        </code></pre>
+        </div>
+      </div>
+      <!-- End of Buttons -->
+
+
+      <!-- Forms -->
+      <div class="container m-y-4 p-y-4">
+          <span class="h1 block m-b-4">Forms</span>
+          <!-- Primary buttons -->
+        <span class="h2 block m-b-1">Inputs</span>
+        <form class="row">
+          <div class="form-input input-field input-primary input-icon col col-6 col-left">
+            <!-- <i class="icono-user"></i> -->
+            <label for="firstname" class="hide">First name:</label>
+            <input type="text" name="firstname" placeholder="Name:"/>
+          </div>
+          <div class="form-input input-field input-primary input-icon col col-6 col-left">
+            <!-- <i class="icono-mail"></i> -->
+            <label for="email" class="hide">Email:</label>
+            <input type="text" name="email" placeholder="Email:"/>
+          </div>
+          <div class="form-input input-field input-select gray-input col col-6 col-left">
+              <!-- <i class="icono-caretDown"></i> -->
+              <select>
+                  <option value="">First choice</option>
+                  <option value="">Next choice</option>
+                  <option value="">Last choice</option>
+              </select>
+          </div>
+        </form>
+      </div>
+
+      <!-- Cards -->
+      <div class="container m-y-4 p-y-4">
+        <span class="h1 block m-b-4">Cards</span>
+        <!-- Full Card  -->
+        <!-- Headless Card  -->
+        <span class="h2 block m-b-1 m-t-3">Feature Card</span>
+        <div class="card card-feature cacard-shadow col-6 col-sm-12">
+            <div class="card-img">
+                <img src="http://i43.tinypic.com/xpveoy.jpg" alt="">
+            </div>
+            <div class="card-footer action-right">
+                <h4>The Card Headline</h4>
+                <p>Sample content about a simple card. This can contain a summary or just a short description about something.</p>
+                <a href="" title="" class="btn btn-primary btn-blue">Card Action</a>
+            </div>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2 change">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="card card-feature card-shadow">
+            <div class="card-img">
+                <img src alt="">
+            </div>
+            <div class="card-footer">
+                <h4></h4>
+                <p></p>
+                <a class="btn btn-primary btn-blue" href="" title="">Card Action</a>
+            </div>
+        </div></script>
+        </code></pre>
+        </div>
+        <span class="h2 block m-b-1 m-t-3">Basic Card</span>
+        <div class="card card-shadow col-6 col-sm-12">
+            <div class="card-header">
+                <h4>Card header</h4>
+            </div>
+            <div class="card-img">
+                <img src="http://i41.tinypic.com/ka0bis.jpg" alt="">
+            </div>
+            <div class="card-footer">
+                <h4>Card footer</h4>
+            </div>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2 change">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="card card-shadow">
+            <div class="card-header">
+                <h4>Card header</h4>
+            </div>
+            <div class="card-img">
+                <img src alt="">
+            </div>
+            <div class="card-footer">
+                <h4>Card footer</h4>
+            </div>
+        </div></script>
+        </code></pre>
+        </div>
+        <!-- Headless Card  -->
+        <span class="h2 block m-b-1 m-t-3">Headless Card</span>
+        <div class="card card-no-header card-shadow col-6 col-sm-12">
+            <div class="card-img">
+                <img src="http://i40.tinypic.com/o5s5zd.jpg" alt="">
+            </div>
+            <div class="card-footer">
+                <h4>Card footer</h4>
+            </div>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2 change">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="card card-no-header card-shadow">
+            <div class="card-img">
+                <img src alt="">
+            </div>
+            <div class="card-footer">
+                <h4>Card footer</h4>
+            </div>
+        </div></script>
+        </code></pre>
+        </div>
+        <!-- Footerless Card  -->
+        <span class="h2 block m-b-1 m-t-3">Footerless Card</span>
+        <div class="card card-no-footer card-shadow col-6 col-sm-12">
+            <div class="card-header">
+                <h4>Card header</h4>
+            </div>
+            <div class="card-img">
+                <img src="http://i49.tinypic.com/2mc6l9l.jpg" alt="">
+            </div>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2 change">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="card card-no-footer card-shadow">
+            <div class="card-header">
+                <h4>Card header</h4>
+            </div>
+            <div class="card-img">
+                <img src alt="">
+            </div>
+        </div></script>
+        </code></pre>
+        </div>
+        <!-- Footer Action Card  -->
+        <span class="h2 block m-b-1 m-t-3">Footer Action Card</span>
+        <div class="card card-no-header card-shadow col-6 col-sm-12">
+            <div class="card-img">
+                <img src="http://i39.tinypic.com/6sxjl2.jpg" alt="">
+            </div>
+            <div class="card-footer action-right">
+                <a href="" title="" class="btn btn-primary btn-blue">Action Button <i class="icono-caretRight"></i></a>
+            </div>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2 change">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="card card-no-header card-shadow">
+            <div class="card-img">
+                <img src alt="">
+            </div>
+            <div class="card-footer action-right">
+                <a href="" title="" class="btn btn-primary btn-blue">Action Button</a>
+            </div>
+        </div></script>
+        </code></pre>
+        </div>
+        <!-- Full Image Card Card  -->
+        <span class="h2 block m-b-1 m-t-3">Full Image Card</span>
+        <div class="card card-full-image card-shadow col-6 col-sm-12">
+            <h4>Another card title</h4>
+            <div class="card-img">
+                <img src="http://i44.tinypic.com/ny5rat.jpg" alt="">
+            </div>
+            <a href="">Card action <i class="icono-caretRight"></i></a>
+        </div>
+        <!-- code snippet -->
+        <div class="m-y-2 change">
+        <pre><code class="language-markup"><script type="prism-html-markup">
+        <div class="card card-full-image card-shadow">
+            <h4>Another card title</h4>
+            <div class="card-img">
+                <img src alt="">
+            </div>
+            <a href="">Card action</a>
+        </div></script>
+        </code></pre>
+        </div>
+      </div>
+
+      <!-- Media -->
+      <div class="container m-y-4 p-y-4">
+          <span class="h1 block m-b-4">Media</span>
+
+          <!-- Responsive Image -->
+          <span class="h2 block m-b-1 m-t-3">Responsive Image</span>
+          <div class="responsive-image">
+              <img src="http://i43.tinypic.com/xpveoy.jpg" alt="">
+          </div>
+          <!-- code snippet -->
+          <div class="m-y-2 change">
+          <pre><code class="language-markup"><script type="prism-html-markup">
+          <div class="responsive-image">
+            <img src alt="">
+          </div></script>
+          </code></pre>
+          </div>
+
+          <!-- Responsive Video -->
+          <span class="h2 block m-b-1 m-t-3">Responsive Iframe</span>
+          <div class="responsive-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/KXdUNp_9oHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- code snippet -->
+          <div class="m-y-2 change">
+          <pre><code class="language-markup"><script type="prism-html-markup">
+          <div class="responsive-video">
+            <iframe width="560" height="315" src= frameborder="0" allowfullscreen></iframe>
+          </div></script>
+          </code></pre>
+          </div>
+      </div>
+
+      <!-- Grid -->
+      <div class="container m-y-4 p-y-4">
+          <span class="h1 block m-b-4">Grid</span>
+
+          <!-- Responsive Image -->
+          <span class="h2 block m-b-1 m-t-3">12 columns</span>
+          <div class="row m-b-3">
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">1</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">2</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">3</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">4</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">5</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">6</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">7</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">8</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">9</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">10</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">11</p>
+            </div>
+          </div>
+          <div class="col col-1 col-lg-4 col-md-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">12</p>
+            </div>
+          </div>
+          </div>
+          <!-- code snippet -->
+          <div class="m-y-2 change">
+          <pre><code class="language-markup"><script type="prism-html-markup">
+          <div class="row">
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>1</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>2</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>3</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>4</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>5</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>6</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>7</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>8</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>9</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>10</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>11</p>
+              </div>
+            </div>
+            <div class="col col-1 col-lg-4 col-md-6 col-sm-12">
+              <div class="column">
+                <p>12</p>
+              </div>
+            </div>
+          </div></script>
+          </code></pre>
+          </div>
+
+          <!-- 4 columns each  -->
+          <span class="h2 block m-b-1 m-t-3 txt-full-width">4 columns each</span>
+          <div class="row">
+          <div class="col col-4 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">4 columns</p>
+            </div>
+          </div>
+          <div class="col col-4 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">4 columns</p>
+            </div>
+          </div>
+          <div class="col col-4 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">4 columns</p>
+            </div>
+          </div>
+          </div>
+          <!-- code snippet -->
+          <div class="m-y-2 change">
+          <pre><code class="language-markup"><script type="prism-html-markup">
+          <div class="row">
+            <div class="col col-4 col-sm-12">
+              <div class="column">
+                <p>4 columns</p>
+              </div>
+            </div>
+            <div class="col col-4 col-sm-12">
+              <div class="column">
+                <p>4 columns</p>
+              </div>
+            </div>
+            <div class="col col-4 col-sm-12">
+              <div class="column">
+                <p>4 columns</p>
+              </div>
+            </div>
+          </div></script>
+          </code></pre>
+          </div>
+
+          <!-- 6 columns each  -->
+          <span class="h2 block m-b-1 m-t-3 txt-full-width">6 columns each</span>
+          <div class="row">
+          <div class="col col-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">6 columns</p>
+            </div>
+          </div>
+          <div class="col col-6 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">6 columns</p>
+            </div>
+          </div>
+          </div>
+          <!-- code snippet -->
+          <div class="m-y-2 change">
+          <pre><code class="language-markup"><script type="prism-html-markup">
+          <div class="row">
+            <div class="col col-6 col-sm-12">
+              <div class="column">
+                <p>6 columns</p>
+              </div>
+            </div>
+            <div class="col col-6 col-sm-12">
+              <div class="colum">
+                <p>6 columns</p>
+              </div>
+            </div>
+          </div></script>
+          </code></pre>
+          </div>
+
+          <!-- 8 / 4 columns each  -->
+          <span class="h2 block m-b-1 m-t-3 txt-full-width">8 columns / 4 columns </span>
+          <div class="row">
+          <div class="col col-8 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">8 columns</p>
+            </div>
+          </div>
+          <div class="col col-4 col-sm-12 m-b-1">
+            <div class="column bg-custom">
+              <p class="p-y-2 txt-center white">4 columns</p>
+            </div>
+          </div>
+          </div>
+          <!-- code snippet -->
+          <div class="m-y-2 change">
+          <pre><code class="language-markup"><script type="prism-html-markup">
+          <div class="row">
+            <div class="col col-8 col-sm-12">
+              <div class="column">
+                <p>8 columns</p>
+              </div>
+            </div>
+            <div class="col col-4 col-sm-12">
+              <div class="column">
+                <p>4 columns</p>
+              </div>
+            </div>
+          </div></script>
+          </code></pre>
+          </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</body>
+</html>

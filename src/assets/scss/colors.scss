@@ -1,0 +1,52 @@
+$bgcolor: #F5F5F5;
+
+// GHC colors
+$ghc-blue: #006993;
+$ghc-blue-hover:#00587b;
+$ghc-orange: #f58026;
+$ghc-orange-hover: #e47926;
+
+// Grayscale colors
+$gray-lightest: #EEEEEE;
+$gray-lighter: #E0E0E0;
+$gray-light: #BDBDBD;
+$gray:#9E9E9E;
+$gray-dark:#757575;
+$gray-darker:#616161;
+$gray-darkest:#424242;
+
+// Action colors 
+$success: #0dbf66;
+$info: #0b92c7;
+$warning: #fca119;
+$danger: #ed5556;
+
+// colors
+$green: #1fdeb3;
+$blue: #12c3d2;
+$yellow: #FFE53B;
+$orange: #FF2525;
+$orange-btn: #ff9f33;
+$dark-blue: #21D4FD;
+$purple: #B721FF;
+$purple-btn: #7274ff;
+$red: #f44336;
+$black: #212121;
+$disabled: #c1c1c1;
+$white: #ffffff;
+
+.bg-custom {
+    background: $gray;
+}
+
+.white {
+    color: #fff;
+}
+
+.ghc-blue {
+    color: $ghc-blue;
+}
+
+.ghc-orange {
+    color: $ghc-orange;
+}

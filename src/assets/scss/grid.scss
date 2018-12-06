@@ -1,0 +1,78 @@
+@import "variables";
+
+.full-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.small-container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 90%;
+}
+
+.col {
+  padding:0 $gutter-width;
+  float:left;
+}
+
+.col-left {
+  float: left;
+}
+
+.col-right {
+  float: right;
+}
+
+.row {
+  margin-left: (-1 * $gutter-width);
+  margin-right: (-1 * $gutter-width);
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@for $i from 1 through 12 {
+  $w: (100% / $grid-columns) * $i;
+  .col-#{$i} {
+    width: $w;
+  }
+}
+
+
+@media only screen and (max-width: $screen-sm) {
+  @for $i from 1 through 12 {
+    $w: (100% / $grid-columns) * $i;
+    .col-sm-#{$i} {
+      width: $w;
+    }
+  }
+}
+
+@media only screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+  @for $i from 1 through 12 {
+    $w: (100% / $grid-columns) * $i;
+    .col-md-#{$i} {
+      width: $w;
+    }
+  }
+}
+
+@media only screen and (min-width: $screen-md) and (max-width: $screen-lg) {
+  @for $i from 1 through 12 {
+    $w: (100% / $grid-columns) * $i;
+    .col-lg-#{$i} {
+      width: $w;
+    }
+  }
+}
+

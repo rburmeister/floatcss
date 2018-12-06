@@ -1,0 +1,12 @@
+$gutter-width: 1rem !default;
+$grid-columns: 12 !default;
+
+$screen-sm: 576px !default;
+$screen-md: 768px !default;
+$screen-lg: 992px !default;
+$screen-xl: 1200px !default;
+
+$breakpoint-sm: "only screen and (min-width : #{$screen-sm}) and (max-width: #{$screen-md})" !default;
+$breakpoint-md: "only screen and (min-width : #{$screen-md}) and (max-width: #{$screen-lg})" !default;
+$breakpoint-lg: "only screen and (min-width : #{$screen-lg}) and (max-width: #{$screen-xl})" !default;
+$breakpoint-xl: "only screen and (min-width : #{$screen-xl})" !default;
