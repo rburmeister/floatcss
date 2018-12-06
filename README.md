@@ -1,4 +1,4 @@
-# Webpack 3 Boilerplate for beginners
+# A simple CSS framework 
 A basic webpack 3 boilerplate for beginners to start with any JS/ES6 based project.
 <br>
 ## Guide
