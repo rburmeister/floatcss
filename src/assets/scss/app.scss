@@ -6,8 +6,8 @@
 
 #nav {
   height:100vh;
-  background:#fff;
-  width:200px;
+  background:$white;
+  transition: all .3s ease;
 }
 
 nav ul li a {
@@ -30,8 +30,8 @@ nav ul li a:hover [class*=icono-] {
   transform:translateX(.5rem);
 }
 
-.container-custom {
-  width:calc(100% - 200px);
+#content {
+  transition: all .3s ease;
 }
 
 
